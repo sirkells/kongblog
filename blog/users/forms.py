@@ -6,6 +6,7 @@ from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationE
 from blog.models import User
 
 
+
 class RegistrationForm(FlaskForm):
     username = StringField('Username',
                            validators=[DataRequired(), Length(min=2, max=20)])
@@ -54,13 +55,6 @@ class UpdateAccountForm(FlaskForm):
             user = User.query.filter_by(email=email.data).first()
             if user:
                 raise ValidationError('That email is taken. Please choose a different one.')
-
-
-
-class PostForm(FlaskForm):
-    title = StringField('Title', validators=[DataRequired()])
-    content = TextAreaField('Content', validators=[DataRequired()])
-    submit = SubmitField('Post')
 
 class RequestResetForm(FlaskForm):
     email = StringField('Email',
