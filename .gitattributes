@@ -23,6 +23,7 @@
 # (among others).
 
 blog/templates/errors/* linguist-vendored
+blog/templates/reset/* linguist-vendored
 .py linguist-vendored=false
 # Documents
 *.doc	 diff=astextplain
