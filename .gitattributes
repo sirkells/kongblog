@@ -21,10 +21,8 @@
 # with the python modules ``pickle``, ``dbm.*``,
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
-<<<<<<< HEAD
 special-vendored-path/* linguist-vendored
 .py linguist-vendored=false
-=======
 # Documents
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
@@ -224,4 +222,3 @@ Procfile       text
 
 ## EXECUTABLES
 *.exe binary
->>>>>>> e690d2ecb6f08c3dc8ab87cf71064c715a901a82
