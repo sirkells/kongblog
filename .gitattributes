@@ -21,7 +21,8 @@
 # with the python modules ``pickle``, ``dbm.*``,
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
-special-vendored-path/* linguist-vendored
+
+blog/templates/* linguist-vendored
 .py linguist-vendored=false
 # Documents
 *.doc	 diff=astextplain
