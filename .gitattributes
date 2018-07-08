@@ -22,7 +22,7 @@
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
 
-blog/templates/* linguist-vendored
+blog/templates/errors/* linguist-vendored
 .py linguist-vendored=false
 # Documents
 *.doc	 diff=astextplain
